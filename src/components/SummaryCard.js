@@ -1,6 +1,5 @@
 import React from "react";
 import { FaBullseye, FaUtensils, FaConciergeBell, FaChevronRight } from "react-icons/fa";
-// import './RightSideContent.css';
 
 const items = [
   { icon: <FaBullseye />, label: "Goals" },

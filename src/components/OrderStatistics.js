@@ -1,7 +1,6 @@
 import React from "react";
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
 import { MdArrowDropUp, MdArrowDropDown } from "react-icons/md";
-// import "./OrderStatistics.css";
 
 const stats = [
   {

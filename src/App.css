@@ -344,16 +344,15 @@ h2 {
 .right-side-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 10px;
-  /* border-radius: 8px; */
-  /* background-color: #2f2f2f; */
   cursor: pointer;
-  /* transition: background-color 0.3s; */
+  transition: background-color 0.3s;
 }
 
-/* .right-side-item:hover {
+.right-side-item:hover {
   background-color: #3f3f3f;
-} */
+}
 
 .icon {
   margin-right: 15px;
@@ -361,7 +360,32 @@ h2 {
 }
 
 .label {
+  flex-grow: 1;
   font-size: 18px;
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .right-side-container {
+    padding: 10px;
+  }
+
+  .right-side-item {
+    padding: 8px;
+  }
+
+  .icon,
+  .arrow {
+    font-size: 20px;
+  }
+
+  .label {
+    font-size: 16px;
+  }
 }
 
 /* OrderStatistics css */

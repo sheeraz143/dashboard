@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaBell, FaEnvelope, FaUser, FaCog } from "react-icons/fa";
+import { FaBell, FaEnvelope, FaUser, FaCog } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { RxDashboard } from "react-icons/rx";
 

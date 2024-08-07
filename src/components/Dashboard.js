@@ -1,5 +1,4 @@
 import React from "react";
-import { CgProfile } from "react-icons/cg";
 import CustomerFeedback from "./CustomerFeedback";
 import RecentOrdersTable from "./RecentOrders";
 import ActivityChart from "./ActivityChart";

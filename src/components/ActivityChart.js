@@ -21,7 +21,7 @@ ChartJS.register(
 
 // Data for weekly view
 const weeklyData = {
-  labels: Array.from({ length: 27 }, (_, i) => i + 1), // Labels from 1 to 27
+  labels: Array.from({ length: 27 }, (_, i) => i + 1),
   datasets: [
     {
       label: "Activity",
@@ -38,7 +38,7 @@ const weeklyData = {
 
 // Data for yearly view
 const yearlyData = {
-  labels: Array.from({ length: 12 }, (_, i) => `Month ${i + 1}`), // Labels from January to December
+  labels: Array.from({ length: 12 }, (_, i) => `Month ${i + 1}`),
   datasets: [
     {
       label: "Activity",
@@ -73,7 +73,7 @@ const options = {
         beginAtZero: true,
         stepSize: 5000,
         callback: function (value) {
-          return value / 1000 + "k"; // Format the y-axis labels
+          return value / 1000 + "k"; 
         },
       },
     },
@@ -102,7 +102,12 @@ const ActivityChart = () => {
           <option value="yearly">Yearly</option>
         </select>
       </div>
-      <Bar data={data} options={options} style={{ height: "300px" }} className="bar-bar"/>
+      <Bar
+        data={data}
+        options={options}
+        style={{ height: "300px" }}
+        className="bar-bar"
+      />
     </div>
   );
 };
